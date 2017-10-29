@@ -1,0 +1,1 @@
+c:\Users\Tucker\Documents\math_lib\target\rls\debug\libmath_lib.rmeta: c:\Users\Tucker\Documents\math_lib\src\lib.rs c:\Users\Tucker\Documents\math_lib\src\vec3.rs c:\Users\Tucker\Documents\math_lib\src\line.rs
