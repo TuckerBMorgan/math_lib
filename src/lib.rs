@@ -1,11 +1,13 @@
 
 mod vec3;
 mod line;
+mod plane;
 
 #[cfg(test)]
 mod tests {
     use vec3::Vec3;
     use line::Line;
+    use plane::Plane;
 
     #[test]
     fn vec3_add_test() {
@@ -96,6 +98,16 @@ mod tests {
 
         let angle = Vec3::angle_between_two_vectors(&a, &b);
         println!("{}", angle);
+    }
+
+    #[test] 
+    fn plane_tests() {
+        let a = Vec3::new(1f32, 0f32, 0f32);
+        let b = Vec3::new(0f32, 0f32, 1f32);
+        let c = Vec3::new(0f32, 0f32, 0f32);
+
+        let plane = Plane::new(a, b, c);
+        println!("{:?}", plane.normal_of_plane());
     }
 }
 

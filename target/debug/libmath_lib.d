@@ -1,1 +1,1 @@
-C:\Users\Tucker\Documents\math_lib\target\debug\libmath_lib.rlib: C:\Users\Tucker\Documents\math_lib\src\vec3.rs C:\Users\Tucker\Documents\math_lib\src\lib.rs C:\Users\Tucker\Documents\math_lib\src\line.rs
+C:\Users\Tucker\Documents\math_lib\target\debug\libmath_lib.rlib: C:\Users\Tucker\Documents\math_lib\src\vec3.rs C:\Users\Tucker\Documents\math_lib\src\lib.rs C:\Users\Tucker\Documents\math_lib\src\plane.rs C:\Users\Tucker\Documents\math_lib\src\line.rs
